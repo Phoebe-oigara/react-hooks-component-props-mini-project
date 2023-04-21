@@ -9,6 +9,7 @@ function ArticleList({posts}) {
                 <Article
                 title={post.title}
                 date={post.date}
+                minutes={post.minutes}
                 preview={post.preview}
                 />
             )
